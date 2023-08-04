@@ -157,9 +157,9 @@ sudo apt install ros-noetic-ros-base
  sudo apt-get install ros-noetic-rtabmap-ros
  ```
  
- # Create interactive web 
-  ## Description web
-  <p> load the database of the map created in the web page to enabling real-time visualization of the mapped environment and effortless destination setting for users., this is done using roslibjs
+ # Create an interactive web 
+  ## Description of web
+  <p> Load the database of the map created on the web page to enable real-time visualization of the mapped environment and effortless destination setting for users., this is done using roslibjs
   
   ## install 
   
