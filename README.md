@@ -158,7 +158,7 @@ sudo apt install ros-noetic-ros-base
  ```
  
  # Create an interactive web 
-  ## Description of web
+  ## Description of the web-page
   <p> Load the database of the map created on the web page to enable real-time visualization of the mapped environment and effortless destination setting for users., this is done using roslibjs
   
   ## install 
