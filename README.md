@@ -1,4 +1,4 @@
-# Autonomous_Wheelchair_ROS_based_on_ubuntu🦼🤖🔥
+# ROS_based_Autonomous_Wheelchair🦼
 
 - [Description](#Description)
 - [Steps](#Steps)
@@ -18,20 +18,21 @@
 
 
 # Description
-<p> ⚡ Our Graduation project help people with disabilities and old people who search for luxurious life </p>
-<p> ⚡ This chair indoor 🏚and provide some feature outdoor🛣 </p>
-<p> ⚡ our chair has touch screen 📱 that contain Map(2D , 3D) as GUI for Apartment and then chair move to target place autonomous avoiding any obastcle and will see always current position in screen and during movement if used map changed compared to current arrangement of Apartment Map will update automatic   </p>
-<p> ⚡GUI has configuration to add routine as save user effort to select every time sequence of target selection </p>
-<p> ⚡ So how work our ninja wheelchair🐱‍👤  </p>
-<p> ⚡ 1.At first chair as setup scan want apartment to create map that 
-  
+<p> The project aimed to create an innovative and efficient solution to assist individuals with mobility challenges </p>
+<p> Our autonomous wheelchair project is implemented on a jetson nano board and utilized advanced algorithms like SLAM (Simultaneous Localization and Mapping) to map the surrounding environment and NavFn for path planning
+-Some key components we integrated into the autonomous wheelchair included:
+•Kinect camera for capturing depth information
+•Optical Wheel encoders that we implemented with two infrared sensors and a disk for accurate distance measurement and precise movement
+-IMU (Inertial Measurement Unit) for detecting orientation and motion
+in addition, we developed a user-friendly web-based GUI on a touch screen, which allowed users to visualize the map in real-time and set destinations effortlessly
+</p>
+
 # Steps
-<p>⚡Here will talk about every step literally from setup to make project work 🤩</p>
+<p>⚡Here we will talk about every step literally from setup to make the project works 🤩</p>
 
 ## Setup Laptop
-<p> ⚡If you as almost of people use windows 🙄 ,You will need Ubuntu version 20.04 as project work on OS linux </p>
-<p> ⚡As told you I can't let you Dispersed I will attack link that I and My team used  </p>
-<p> ⚡and depend on your machine is  UEFI  GPT will follow one link of them <a href="https://www.youtube.com/watch?v=aKKdiqVHNqw" >🔗Press</a> or <a href="https://www.youtube.com/watch?v=-iSAyiicyQY&t=18s" >🔗Press</a> </p>
+<p> ⚡If you use Windows,You will need Ubuntu version 20.04 as the project works on OS Linux </p>
+<p> ⚡depends on if your machine is UEFI or GPT will follow one link of those <a href="https://www.youtube.com/watch?v=aKKdiqVHNqw" >🔗Press</a> or <a href="https://www.youtube.com/watch?v=-iSAyiicyQY&t=18s" >🔗Press</a> </p>
 
 ## Install ROS Noetic
 
@@ -158,7 +159,7 @@ sudo apt install ros-noetic-ros-base
  
  # Create interactive web 
   ## Description web
-  <p> Here try to load data base of map created in web page to be interactive instead using RVIZ to use by end user  , I will do this using roslibjs
+  <p> load the database of the map created in the web page to enabling real-time visualization of the mapped environment and effortless destination setting for users., this is done using roslibjs
   
   ## install 
   
@@ -178,13 +179,13 @@ sudo apt install ros-noetic-ros-base
   ```
   <p> so to solve this watch video Anis kouba (connection component /import roslib)
   
-  <p> if you face problem that  current version of Node less than 14 ,can check with this line 
+  <p> If you face the problem that the current version of Node is less than 14, (you can check with this command)
   
   ```console
   node -v
   ```
   
-  so do following lines 
+  run these commands
   
   ```console 
   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
