@@ -55,7 +55,7 @@ curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo ap
 sudo apt update
 ```
 
-<p>Now pick how much of ROS you would like to install.
+<p>Now pick what version of ROS you would like to install.
 <p> 3.1Desktop-Full Install: (Recommended): Everything in Desktop plus 2D/3D simulators and 2D/3D perception packages
 
 ```console
@@ -80,7 +80,7 @@ sudo apt install ros-noetic-ros-base
   source /opt/ros/noetic/setup.bash
   ```
 
-  <p> to make system able to see ROS 
+  <p> to make the system able to see ROS 
 
   OR 
 
@@ -110,7 +110,7 @@ sudo apt install ros-noetic-ros-base
   gedit ~/.bashrc 
   ```
   
-  then will open text editor ,👀️👀️👀️👀️👀️ try to put this line after  "source /opt/ros/noetic/setup.bash " that added above 
+  then open the text editor ,👀️👀️👀️👀️👀️ put this line after  "source /opt/ros/noetic/setup.bash " that was added above 
   
   ```console 
   source ~/catkin_ws/devel/setup.bash
@@ -130,7 +130,7 @@ sudo apt install ros-noetic-ros-base
   ```
   
  # Packages install
- <p> As we use Arduino in transmitting speed and get data of Encoder we need to install rosserial packages
+ <p> As we use Arduino in transmitting speed and get data from Encoder we need to install rosserial packages
  
  ```console
  sudo apt-get install ros-noetic-rosserial
