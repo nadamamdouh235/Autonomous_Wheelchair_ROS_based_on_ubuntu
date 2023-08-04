@@ -19,12 +19,12 @@
 
 # Description
 <p> The project aimed to create an innovative and efficient solution to assist individuals with mobility challenges </p>
-<p> Our autonomous wheelchair project is implemented on a jetson nano board and utilized advanced algorithms like SLAM (Simultaneous Localization and Mapping) to map the surrounding environment and NavFn for path planning
--Some key components we integrated into the autonomous wheelchair included:
-•Kinect camera for capturing depth information
-•Optical Wheel encoders that we implemented with two infrared sensors and a disk for accurate distance measurement and precise movement
--IMU (Inertial Measurement Unit) for detecting orientation and motion
-in addition, we developed a user-friendly web-based GUI on a touch screen, which allowed users to visualize the map in real-time and set destinations effortlessly
+<p> Our autonomous wheelchair project is implemented on a jetson nano board and utilized advanced algorithms like SLAM (Simultaneous Localization and Mapping) to map the surrounding environment and NavFn for path planning</p>
+<p>-Some key components we integrated into the autonomous wheelchair included:</p>
+<p>•Kinect camera for capturing depth information</p>
+<p>•Optical Wheel encoders that we implemented with two infrared sensors and a disk for accurate distance measurement and precise movement</p>
+<p>•IMU (Inertial Measurement Unit) for detecting orientation and motion</p>
+<p>in addition, we developed a user-friendly web-based GUI on a touch screen, which allowed users to visualize the map in real-time and set destinations effortlessly
 </p>
 
 # Steps
